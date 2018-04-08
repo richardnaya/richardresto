@@ -1,0 +1,21 @@
+.slick-main-slider .item {
+  min-height: 1083px; }
+
+.top-contact-info span i {
+  color: #d70f0f; }
+
+.top-header .social-widgets ul li a {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
+  .top-header .social-widgets ul li a:hover::before {
+    color: #d70f0f; }
+
+.main-navigation ul li a {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
+  .main-navigation ul li a:hover {
+    color: #d70f0f; }

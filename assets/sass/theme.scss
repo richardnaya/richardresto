@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+@import 'normalize';
+
+.slick-main-slider .item {
+  min-height: 1083px;
+}
+
+.top-contact-info span i {
+  color: $color-red;
+}
+
+.top-header .social-widgets ul li a {
+  @include transition($duaration);
+  &:hover::before {
+    color: $color-red;
+  }
+}
+
+.main-navigation ul li a {
+  @include transition($duaration);
+  &:hover {
+    color: $color-red;
+  }
+}
